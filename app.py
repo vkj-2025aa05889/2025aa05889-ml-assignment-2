@@ -36,6 +36,18 @@ st.markdown("---")
 # ===============================
 # Dataset Upload
 # ===============================
+
+# Provide a quick download link for the test dataset
+test_data_path = os.path.join("data", "test_data.csv")
+if os.path.exists(test_data_path):
+    with open(test_data_path, "rb") as f:
+        st.download_button(
+            label="Download Test Dataset (test_data.csv)",
+            data=f,
+            file_name="test_data.csv",
+            mime="text/csv",
+        )
+
 uploaded_file = st.file_uploader(
     "Upload Test Dataset (CSV)",
     type=["csv"]
