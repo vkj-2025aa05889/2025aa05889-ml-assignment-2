@@ -147,6 +147,7 @@ This project presents a complete end-to-end machine learning workflow encompassi
 
 ## Author
 
-**Name:** Kamakshi Jayanthi  
-**Program:** M.Tech (AIML / DSE)  
-**Institute:** BITS Pilani  
+**Name:** Kamakshi Jayanthi
+**Student ID:** 2025AA05889
+**Program:** M.Tech (AIML / DSE)
+**Institute:** BITS Pilani
